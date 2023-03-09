@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    
+    max-width: 1200px;
+    margin: auto;
+   
+}
+/* header css start */
+header hr{
+    margin-top: 20px;
+    border: 0;
+    height: 0; 
+    box-shadow: 0 0 6px 1px black;
+}
+header nav i{
+   
+    color: black;
+    display:flex;
+    justify-content: space-between;
+}
+header nav a{
+    text-decoration: none;
+    margin-left: 100px;
+    
+}
+
+header nav img{
+    margin-left: 25px;
+    margin-top: 15px;
+    
+    width: 60px;
+    height: 60px;
+    
+}
+header nav a{
+    justify-content: space-between;
+   
+    color:black;
+    font-size: 20px;
+    
+}
+
+
+
+
+/* header css end */
+
+
+/* section start */
+
+.tours h3{
+    margin-top: 35px;
+    text-align: center;
+    color: rgb(192, 192, 32);
+    font: bold 20px 'Montserrat', sans-serif;
+}
+.tours h1{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 400%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.tours-body{
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+.article-img{
+    position: relative;
+}
+
+.article-img img{
+    width: 340px;
+    height: 340px;
+    object-fit: cover;
+    object-position: top;
+}
+.article-text .container{
+    max-width: 290px;
+    margin: auto;   
+   
+}
+.article-text i{
+
+    margin-top: 13px;
+    margin-bottom: 13px;
+    color: yellow;
+}
+
+.article-text dl dt{
+    color: green;
+
+
+}
+.article-text dl dt{
+
+    margin-top: 10px;
+
+}
+
+.article-text h2{
+
+    margin-bottom: 13px;
+    text-align: left;
+    font-size: 1.3em;
+    width: 300px;
+}
+
+
+.article-text{
+    
+    background-color: whitesmoke;
+    
+}
+
+
+
+
+/* section end */
